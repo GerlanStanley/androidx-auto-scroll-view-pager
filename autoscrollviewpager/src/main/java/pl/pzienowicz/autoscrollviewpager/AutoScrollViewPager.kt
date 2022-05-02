@@ -9,7 +9,7 @@ import android.view.MotionEvent
 import android.view.animation.Interpolator
 import androidx.viewpager.widget.ViewPager
 
-class AutoScrollViewPager(context: Context, attrs: AttributeSet?) : ViewPager(context, attrs) {
+open class AutoScrollViewPager(context: Context, attrs: AttributeSet?) : ViewPager(context, attrs) {
 
     constructor(context: Context): this(context, null)
 
